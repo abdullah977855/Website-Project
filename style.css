@@ -80,7 +80,7 @@ nav {
 main {
   background-color: rgb(0, 18, 88);
   margin-top: 11vh;
-  height: auto;
+  height: calc(100vh - 11vh);
 }
 
 #home-page-intro {
@@ -105,20 +105,24 @@ main {
 }
 
 #home-para {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.5);
   font-size: 17px;
 }
 
 #rating-container {
   display: flex;
-  justify-content: center;
+  align-items: center;
   gap: 30px;
+  margin-top: 8.5vh;
 }
 
-.rating > h4{
-  font-size: 1.7vw;
-}
-
-.rating > h6{
+.rating > h4 {
   font-size: 1.5vw;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.rating > h6 {
+  font-size: 1vw;
+  color: rgba(255, 255, 255, 0.5);
 }
