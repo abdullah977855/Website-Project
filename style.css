@@ -80,7 +80,7 @@ nav {
 main {
   background-color: rgb(0, 18, 88);
   margin-top: 11vh;
-  height: calc(100vh - 11vh);
+  height: auto;
 }
 
 #home-page-intro {
@@ -107,4 +107,18 @@ main {
 #home-para {
   color: rgba(255, 255, 255, 0.7);
   font-size: 17px;
+}
+
+#rating-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.rating > h4{
+  font-size: 1.7vw;
+}
+
+.rating > h6{
+  font-size: 1.5vw;
 }
